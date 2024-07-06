@@ -1,0 +1,171 @@
+Loops In Java
+Loops in Java are essential for executing a block of code repeatedly until a specified condition is met. They are crucial for controlling program flow and optimizing repetitive tasks. For instance, if you need to display a message multiple times or process a list of items, loops provide an efficient way to do so without duplicating code.
+
+In Java, there are several types of loops:
+
+1. **for loop**: Executes a block of code a fixed number of times.
+2. **while loop**: Repeats a block of code as long as a specified condition is true.
+3. **do-while loop**: Similar to a while loop, but guarantees at least one execution of the block of code.
+
+Using loops allows programmers to write cleaner, more efficient code by reducing redundancy and enhancing maintainability.
+
+------For Loop----------
+The for loop is the basic and mostly used loop in JAVA. It is one of the control statements. The for loop allows the programmer to initialize a control variable, test a condition, and modify the control variable all in one line of code and perform execution until the desired condition is met.
+
+Suppose if a user wants to execute the block of code several times which means the number of iterations is fixed. Then, we should use for loop.
+
+As said earlier JAVA provides an appropriate way of writing the for-loop structure which contains four parts as
+
+Initialization
+Condition
+Increment/Decrement
+Statement
+
+-------------
+
+
+While Loop
+
+The Java while loop is used to iterate a part of the program repeatedly until the specified Boolean condition is true. As soon as the Boolean condition becomes false, the loop automatically stops. The while loop is considered as a repeating if statement. If the number of iteration is not fixed, it is recommended to use the while loop.
+
+The different parts of while loop:
+
+Condition: It is an expression which is tested. If the condition is true, the loop body is executed and control goes to update expression. When the condition becomes false, we exit the while loop.
+
+Example: i <=100
+
+Update expression: Every time the loop body is executed, this expression increments or decrements loop variable.
+
+ the important thing about while loop is that, sometimes it may not even execute. If the condition to be tested results into false, the loop body is skipped and first statement after the while loop will be executed.
+
+
+ Do-While Loop
+
+A do while loop allows code to be executed repeatedly until the condition is satisfied. It is similar to the while loop. The only difference is that it checks for the condition after the execution of the body of the loop. So, it is also known as exit control loop.
+
+Infinite Do While Loop
+
+Do while loop also provides an infinite looping condition. If the condition of do while loop will never be false. Then it’s an infinite do while loop.
+
+Deciding which Loops to Use
+
+The for loop:
+
+Pre-test loop (Entry Controlled)
+Use it where there is some type of counting variable that can be evaluated.
+The while loop:
+
+Pre-test loop (Entry Controlled)
+Use it where you do not want the statements to execute if the condition is false in the beginning.
+The do-while loop:
+
+Post-test loop (Exit Controlled)
+Use it where you want the statements to execute at least one time.
+
+
+
+
+
+
+Lesson 3: Jump Statements
+Jump Statements
+
+Jump statements are used to transfer the control of the program to the specific statements. In other words, jump statements transfer the execution control to the other part of the program. There are two types of jump statements in Java, i.e., break and continue. Java break and continue statements are used to manage program flow. We can use them in control flow structures like iterations and conditional statements. They can be used in a loop to control loop iterations. These statements let us to control loop and conditional statements by enabling us to either break out of the loop or jump to the next iteration by skipping the current loop iteration.
+
+
+
+Java break Statement
+
+In JAVA, break is a statement that is used to break current execution flow of the program. We can use break statement inside loop, switch case etc.
+If break is used inside loop then it will terminate the loop.
+If break is used inside the innermost loop then break will terminate the innermost loop only and execution will start from the outer loop.
+If break is used in switch case then it will terminate the execution after the matched case. Use of break, we have covered in our switch case topic.
+Syntax: break;
+
+Flow chart showing the workflow of break statement
+
+
+
+Consider the following example in which we have used the break statement with the loop.
+
+Example 1: BreakLoop.java(with for loop)
+
+
+
+
+
+Output
+
+
+
+
+
+Example 2: BreakInLoop.java
+
+
+
+
+
+Output
+
+
+
+
+
+Example 3: BreakInLoop.java
+
+
+
+
+
+Output
+
+
+
+
+
+Example 4: BreakInSwitch.java
+
+
+
+
+
+Output
+
+
+
+
+
+Java continue Statement
+
+The continue statement is used to skip the current iteration of the loop. 
+It jumps to the next iteration of the loop immediately. 
+We can use continue statement with for loop, while loop and do-while loop.
+The continue statements are used in the situations when we want to continue the loop but do not want the remaining statement after the continue statement.
+The continue statement will cause the currently executing iteration of a loop to terminate and the next iteration will begin.
+Syntax: continue;
+
+Flow chart showing the workflow of the continue statement
+
+
+
+
+
+Example 1: ContinueLoop.java
+
+
+
+
+
+Output
+
+Example 2: ContinueInLoop.java(Nested Loop)
+
+Difference between: Break and Continue
+
+
+
+
+
+
+

@@ -1,0 +1,151 @@
+Lesson 1: Variables And Data Types
+
+Variables
+Variables are containers used to store value in program. There are different types of variables where we can store different kinds of values. You can use variables to store data and reuse it later in the program.
+
+Note: We must give a unique name to a variable. The Unique name given to variables, methods, classes, etc., is an identifier.
+
+Variables
+
+A variable is a name for a location in memory. A variable must be declared by specifying its name and the type of information that it will hold.
+
+Example: Variables in Java
+public class Main {
+    public static void main(String[] args) {
+      // here a and name are variables.
+            int a = 10;
+            String name = "Bimal";
+
+            System.out.println("The value of a is "+a);
+            System.out.println("The value of name is "+name);
+    }
+}
+
+
+Types Of Variables:
+They are called data types. We will learn more about data types later in this guide.
+
+String: For storing text values. E.g. “Ram” [Must be in double quotes]
+int: For storing integer values. [Decimal is not included] e.g. 10, -10, 8555
+float: For storing floating point value. [Decimal is included] e.g. 10.0, -10.2, 85.698
+char: For storing a single character. E.g. ‘A’, ‘a’, ‘z’ [Must be in single quotes]
+boolean : For storing true or false values.
+
+
+How To Declare Variables: [Syntax]
+type variableName = value;
+type is the data type of the variable.
+variableName is the name of the variable.
+
+Variables [Rules In Java]
+Declare type first. e.g int i =1;.
+Variable name should not start with number.
+Variable names should not be keywords. [already defined words]
+Variable name should not contain space.
+Variables names are case sensitive.
+
+
+9*****************/Types of Varibales
+
+Local Variable
+Instance Variable
+Static/Class Variable
+
+
+
+
+Local Variable --kunai method ko body vitra banayeko hunchha teslai local variable vaninchha 
+syntac : void fun ()
+int x: // local variable 
+} 
+
+instance variable--- A variable which is declared inside the class but outside of all the method acalled instance variable 
+syntax: class A {
+          int a; // insacne variable
+        methods(pvsm)
+}
+
+static variable -: A variable which is declared with the help of static keyword called static variable 
+syntax: statc int x; 
+
+Constant In Java
+A constant is a variable in Java that has a fixed value. We cannot assign another value.
+Syntax
+final type variableName = value;
+// Example
+final float PI = 3.14f;
+// We cannot assign other value in PI. if we assign it will give us error.
+
+/* public class Main {
+    public static void main(String[] args) {
+        // This is constant variable. We cannot change the value of PI.
+        final float PI = 3.14f;
+        // This is radius
+       float radius = 20.0f;
+       // This is formula for calculating area. i.e. PI * r * r
+       float area = PI * radius * radius;
+       // printing area
+        System.out.println("Area is "+area);
+
+    }
+}            */
+ 
+
+
+----------Literal In Java
+Literal is a value that is assigned to a variable. It is a fixed value. We cannot change the value of literal. For example:
+
+// Here 20, John, true are literals.
+int age = 20;
+String name = "John";
+boolean isMarried = true;-----
+
+
+Datatype in java :
+
+Data types are the types of data that can be stored inside variables. Java is a statically typed language, so all the variables must be declared before use
+1. Primitive data type
+2. Non-primitive data type
+
+
+Primitive Data Types: byte, short, int, long, char, boolean, double
+Reference Data Types: String, Arrays, Classes
+non-primitive data types are those data types which are actually not defined by the programming language but are created by the programmers\
+
+public class Datatype {
+    public static void main (String []args ){
+     // premitive datatype 
+     
+        int a = 10;
+        byte bNum = 127;
+        Short SNUM = 32767;
+        long lNUm = 9223372036854775807L;
+        float fNum = 3.14f;
+        double dNum = 3.14; // Mostly Used
+        boolean isMarried = true;
+        char myCh = 'A';
+
+        System.out.println("the value of bNum is  " +bNum);
+        System.out.println("the value of a is  " +a);
+        System.out.println("the value of SNUM is  " +SNUM);
+        System.out.println("the value of fNum is  " +fNum);
+        System.out.println("the value of isMarried is  " +isMarried);
+        System.out.println("the value of myCh is  " +myCh);
+        System.out.println("the value of lNUm is  " +lNUm);
+        System.out.println("the value of dNum is  " +dNum);
+
+        //Non premetive datatype 
+        String str1= "This is string ";
+        System.out.println(str1);
+
+
+
+
+
+Java type casting 
+Type casting is the process of converting one data type to another
+It is also called type conversion. It is done to store a value of one data type into another data type. It is done in two ways:
+
+Implicit Type Casting: It is done automatically when the value is stored in a variable of a larger data type. For example, if you store an int value into a long variable, it will be done automatically.
+
+Explicit Type Casting: It is done manually by the programmer. For example, if you store a long value into an int variable, it will give an error. So, you have to convert it manually.

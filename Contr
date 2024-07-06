@@ -1,0 +1,60 @@
+Lesson 1: Control Flow In Java
+Control Flow in Java / Java Control Statements
+
+Java compiler executes the code from top to bottom. The statements in the code are executed according to the order in which they appear. However, Java provides statements that can be used to control the flow of Java code. Such statements are called control flow statements. It is one of the fundamental features of Java, which provides a smooth flow of program.
+
+Java provides three types of control flow statements.
+
+1. Decision Making statements
+
+if statements
+switch statement
+2. Loop statements
+
+for loop
+while loop
+do while loop
+for-each loop
+3. Jump statements
+
+break statement
+continue statement
+
+
+Lesson 2: Conditional Statements   
+
+Types of Conditional/Decision making statements in JAVA
+
+1.    if-else Statement
+
+a.    if statement
+b.    if-else statement
+c.    if-else-if statement
+d.    if-else-if ladder
+e.    Nested if statement
+2.    Switch Case
+
+a.    Switch Case
+b.    Nested Switch Case
+
+When do we use it?
+
+We use conditional statements in computer programs to control what the program does and perform different actions based on these “if” logic statements. 
+Use a switch every time you have more than 2 conditions on a single variable, take weekdays for example, if you have a different action for every weekday you should use a switch. 
+An if-then-else statement can test expressions based on ranges of values or conditions, whereas a switch statement tests expressions based only on a single integer, enumerated value, or String object.
+
+
+1. If-Else Statement
+
+If-Else statement is the type of condition statement used in JAVA which is used to check a particular condition. 
+Here, If, Else If and Else keywords are used on which respective conditions are placed and output is displayed based on those conditions.
+Based upon its usages it has several types which are as;
+
+a. If Statement
+
+It is the most basic statement among all control flow statements in Java.
+ It evaluates a Boolean expression and enables the program to enter a block of code 
+ if the expression evaluates to true
+
+ 
+ 
